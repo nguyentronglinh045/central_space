@@ -208,32 +208,32 @@ body {
   width: 100%;
 }
 #timeline .demo-card--step1 {
-  background-color: #46b8e9;
+  background-color: #eeaa41;
 }
 #timeline .demo-card--step1 .head::after {
-  border-color: #46b8e9;
+  border-color: #eeaa41;
 }
 #timeline .demo-card--step2 {
-  background-color: #3ee9d1;
+  background-color: #f58b35;
 }
 #timeline .demo-card--step2 .head::after {
-  border-color: #3ee9d1;
+  border-color: #f58b35;
 }
 #timeline .demo-card--step3 {
-  background-color: #ce43eb;
+  background-color: #f16722;
 }
 #timeline .demo-card--step3 .head::after {
-  border-color: #ce43eb;
+  border-color: #f16722;
 }
 #timeline .demo-card--step4 {
-  background-color: #4d92eb;
+  background-color: #df5c1a;
 }
 #timeline .demo-card--step4 .head::after {
-  border-color: #4d92eb;
+  border-color: #df5c1a;
 }
 #timeline .demo-card--step5 {
-  background-color: #46b8e9;
+  background-color: #f55200;
 }
 #timeline .demo-card--step5 .head::after {
-  border-color: #46b8e9;
+  border-color: #f55200;
 }

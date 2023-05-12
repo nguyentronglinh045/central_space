@@ -1,5 +1,4 @@
 .about-section {
-  
 }
 
 .image_block_one .image-box {
@@ -346,10 +345,10 @@
   padding: 33px 40px 38px;
 }
 .history-item .number-box {
-	display: none;
+  display: none;
 }
 .history-item.history-item-2 .number-box {
-	left: -136px;
+  left: -136px;
 }
 @media (min-width: 767px) {
   .history-item .number-box {
@@ -364,41 +363,75 @@
     z-index: 5;
     text-align: center;
     display: flex;
-		justify-content: center;
-		align-items: center;
+    justify-content: center;
+    align-items: center;
   }
-	.history-item::after {
+  .history-item::after {
     position: absolute;
-    content: '';
+    content: "";
     right: -94px;
     top: 0;
     height: 100%;
     width: 2px;
     background: #1796cc24;
-	}
-	.history-item.history-item-2 {
+  }
+  .history-item.history-item-2 {
     margin: 90px 0 0 55px;
+  }
+  .history-item.history-item-2::after {
+    left: -107px;
+  }
 }
-.history-item.history-item-2::after {
-	left: -107px;
-}
 
-}
+/* Tầm nhìn */
 
-
-/* test */
-
-p.p-history-item {
-  font-size: 1em;
-  line-height: 1.75em;
-  border-top: 3px solid;
-  border-image: linear-gradient(to right, #f36f21 0%, #c9c9c9 100%);
-  border-image-slice: 1;
-  border-width: 3px;
-  margin: 0;
-  padding: 40px;
-  counter-increment: section;
+.ns-management-content ul li {
   position: relative;
-  color: #34435e;
-	transform: scale(.5);
+  z-index: 1;
+  display: flex;
+  gap: 20px;
+  padding-bottom: 25px;
+}
+.ns-management-content ul li::before {
+  position: absolute;
+  content: "";
+  left: 11px;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  background: #000;
+  z-index: -1;
+}
+.ns-management-content-icon {
+  display: flex;
+  width: 25px;
+  height: 25px;
+  flex: 0 0 25px;
+  background-color: #ffab17;
+  border-radius: 50%;
+  line-height: 25px;
+  text-align: center;
+  font-size: 25px;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+}
+.ns-management-content ul li:last-child::after {
+  position: absolute;
+  left: 5px;
+  bottom: -5px;
+  content: "";
+  background-image: url("https://cdn-icons-png.flaticon.com/512/32/32195.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 14px;
+  height: 18px;
+  z-index: 9;
+}
+.ns-management-content-info h5 {
+  font-size: 22px;
+  color: #ffab17;
+  font-weight: 600;
+  margin-bottom: 10px;
 }
