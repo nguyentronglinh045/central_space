@@ -2460,3 +2460,16 @@ div#mCSB_1_container {
 .btn-social:hover {
   background-color: #4490b8 !important;
 }
+
+.payments {
+  display: flex;
+  margin: auto;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.widget-content {
+  max-width: 360px;
+  margin: 0 auto;
+}
