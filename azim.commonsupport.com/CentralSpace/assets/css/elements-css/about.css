@@ -440,11 +440,11 @@
   width: 100%;
   background-color: rgb(255 255 255 / 60%);
   padding: 40px;
-  color: #000;
+  color: #462c20;
   border-radius: 20px;
 }
 .mission-text > p {
-  color: #000;
+  color: #462c20;
   font-size: 18px;
   font-weight: 500;
 }
