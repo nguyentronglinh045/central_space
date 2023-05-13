@@ -7,7 +7,7 @@
 	position: relative;
 	display: block;
 	overflow: hidden;
-	background: #DAE9F2;
+	background: #e5e5e5;
 	border-radius: 10px;
 	transition: all 500ms ease;
 }

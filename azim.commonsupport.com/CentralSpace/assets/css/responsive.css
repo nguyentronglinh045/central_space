@@ -694,7 +694,13 @@
     margin-bottom: 0px;
   }
 
-
+  .main-footer .widget-section {
+    text-align: center;
+  }
+  .main-footer .logo-widget .footer-logo {
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
 
 @media only screen and (max-width: 599px){
@@ -747,7 +753,13 @@
     padding: 30px 0px;
   }
 
-
+  .main-footer .widget-section {
+    text-align: center;
+  }
+  .main-footer .logo-widget .footer-logo {
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
 
 
@@ -784,7 +796,7 @@
   }
 
   .image_block_one .image-box .video-btn{
-    left: 30px;
+    bottom: 41%;
   }
 
   .service-block-one .inner-box .overlay-content,
@@ -941,7 +953,13 @@
   .nice-select:after {
     right: 24px;
   }
-
+  .main-footer .widget-section {
+    text-align: center;
+  }
+  .main-footer .logo-widget .footer-logo {
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
 
 

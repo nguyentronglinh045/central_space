@@ -4,7 +4,8 @@
 /* Calculations */
 /* Placeholders */
 @media (min-width: 1000px) {
-  #timeline .demo-card:nth-child(odd) .head::after, #timeline .demo-card:nth-child(even) .head::after {
+  #timeline .demo-card:nth-child(odd) .head::after,
+  #timeline .demo-card:nth-child(even) .head::after {
     position: absolute;
     content: "";
     width: 0;
@@ -12,7 +13,8 @@
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
   }
-  #timeline .demo-card:nth-child(odd) .head::before, #timeline .demo-card:nth-child(even) .head::before {
+  #timeline .demo-card:nth-child(odd) .head::before,
+  #timeline .demo-card:nth-child(even) .head::before {
     position: absolute;
     content: "";
     width: 9px;
@@ -170,6 +172,7 @@ body {
   margin: 0;
   padding-bottom: 6px;
   line-height: 1rem;
+  font-weight: 500;
 }
 @media (min-width: 480px) {
   #timeline .demo-card .head h2 {
@@ -236,4 +239,23 @@ body {
 }
 #timeline .demo-card--step5 .head::after {
   border-color: #f55200;
+}
+
+.img-card-history {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.img-card-history img {
+  width: 100%;
+  transition: 0.5s all ease-in-out;
+}
+
+#timeline .demo-card--step1:hover img,
+#timeline .demo-card--step2:hover img,
+#timeline .demo-card--step3:hover img,
+#timeline .demo-card--step4:hover img,
+#timeline .demo-card--step5:hover img {
+  transform: scale(1.5);
 }
