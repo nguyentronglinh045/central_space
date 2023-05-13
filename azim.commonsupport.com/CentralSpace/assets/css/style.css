@@ -2469,7 +2469,23 @@ div#mCSB_1_container {
   justify-content: space-between;
   
 }
-.widget-content {
+.links-widget .widget-content {
   max-width: 360px;
-  margin: 0 auto;
+}
+.btn-box {
+  height: 40px;
+  width: 160px;
+  padding: 20px;
+  background-color: #f16722;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.btn-box a {
+  color: white;
+  
 }
