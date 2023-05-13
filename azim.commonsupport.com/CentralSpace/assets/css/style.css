@@ -2044,7 +2044,7 @@ div#mCSB_1_container {
   position: relative;
   display: block;
   background: #eeaa41;
-  padding: 31px 0px;
+  padding: 20px 0px;
 }
 
 .footer-bottom p,
@@ -2472,7 +2472,7 @@ div#mCSB_1_container {
 .links-widget .widget-content {
   max-width: 360px;
 }
-.btn-box {
+.login-btn.btn-box {
   height: 40px;
   width: 160px;
   padding: 20px;
@@ -2485,7 +2485,7 @@ div#mCSB_1_container {
   margin-top: 20px;
   margin-left: 20px;
 }
-.btn-box a {
+.login-btn.btn-box a {
   color: white;
   
 }
