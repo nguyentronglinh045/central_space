@@ -171,7 +171,7 @@ textarea:focus {
 p {
   position: relative;
   font-family: "Inter", sans-serif;
-  color: #6e6e6e;
+  color: #462c20;
   font-weight: 400;
   margin: 0px;
   transition: all 500ms ease;
@@ -2387,6 +2387,12 @@ div#mCSB_1_container {
   padding: 10px;
 }
 
+.line-clamp-1 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
 .line-clamp-2 {
   overflow: hidden;
   display: -webkit-box;
@@ -2488,4 +2494,58 @@ div#mCSB_1_container {
 .login-btn.btn-box a {
   color: white;
   
+}
+
+.rounded-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 0 10px #00000029;
+}
+.bg-member-card {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.space-divide {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 99;
+  width: fit-content;
+  height: 40px;
+  background-color: #E8F23A;
+  display: flex;
+  gap: 8px;
+  padding: 8px 20px;
+  border-radius: 10px;
+}
+.logo-sm {
+  width: 20px;
+  height: auto;
+}
+.social-icon-rounded {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #f16722;
+}
+.primary-color {
+  color: #f16722;
+}
+.primary-color-2 {
+  color: #462c20;
+}
+
+.see-more:hover > span{
+  color: #f16722 !important;
+}
+.see-more:hover > svg {
+  stroke: #f16722 !important;
 }
