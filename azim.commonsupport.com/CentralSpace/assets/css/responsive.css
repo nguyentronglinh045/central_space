@@ -704,6 +704,9 @@
   .header-style-two .header-top {
     display: none;
   }
+  .company-representative .rounded-avt {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 599px){

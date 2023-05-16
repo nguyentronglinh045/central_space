@@ -83,7 +83,7 @@
 .team-block-one .inner-box .lower-content {
   position: relative;
   display: block;
-  padding: 22px 30px 25px 30px;
+  /* padding: 22px 30px 25px 30px; */
 }
 
 .team-block-one .inner-box .lower-content h3 {
