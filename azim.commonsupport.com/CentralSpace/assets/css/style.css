@@ -2497,8 +2497,9 @@ div#mCSB_1_container {
 }
 
 .rounded-image {
-  width: 80px;
-  height: 80px;
+  width: 50px;
+  height: 50px;
+  min-width: 50px;
   border-radius: 50%;
   overflow: hidden;
   box-shadow: 0 0 10px #00000029;
@@ -2510,14 +2511,15 @@ div#mCSB_1_container {
   background-repeat: no-repeat;
   position: relative;
 }
-.space-divide {
+.space-area {
   position: absolute;
   right: 0;
   top: 0;
   z-index: 99;
   width: fit-content;
   height: 40px;
-  background-color: #E8F23A;
+  min-width: 100px;
+  background-color: #02B0DB;
   display: flex;
   gap: 8px;
   padding: 8px 20px;

@@ -123,7 +123,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 10px;
+  border-radius: 5px;
   color: #462c20;
   font-weight: 600;
   font-family: "Inter", sans-serif;
@@ -147,4 +147,23 @@
   transform: scale(0, 0);
   background: #462c20;
   transition: all 500ms ease;
+}
+.see-more-card {
+   width: 30px;
+   height: 30px;
+   background-color: #f16722;
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 15px;
+   border-radius: 50%;
+   position: absolute;
+   bottom: 18px;
+   right: 30px;
+}
+.team-block-one .inner-box:hover .see-more-card {
+  color: white;
+  background-color: #462c20;
+
 }

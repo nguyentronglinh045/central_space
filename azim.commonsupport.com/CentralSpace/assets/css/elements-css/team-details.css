@@ -257,9 +257,9 @@ p.team-details {
 }
 
 .company-representative .rounded-avt {
-  width: 400px;
-  /* height: 200px; */
-  /* border-radius: 20px; */
+  width: 200px;
+  height: 200px;
+  min-width: 200px;
   overflow: hidden;
   box-shadow: 0 0 10px #00000029;
   background-size: cover;
@@ -267,7 +267,10 @@ p.team-details {
   object-fit: cover;
 }
 .content-representative {
-  padding: 20px;
+  padding:10px 20px 20px 20px; 
+  background-color: #e6e6e6 ;
+  border-radius: 10px;
+  flex: 1;
 }
 p.service::before {
   content: "";

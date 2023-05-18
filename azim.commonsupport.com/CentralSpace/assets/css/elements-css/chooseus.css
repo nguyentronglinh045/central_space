@@ -74,10 +74,12 @@
 
 .chooseus-section .bg-layer{
 	position: absolute;
-	top: 0px;
+	top: 50%;
 	right: 0px;
 	width: 50%;
-	height: calc(100% - 220px);
+	transform: translateY(-50%);
+	/* height: calc(100% - 220px); */
+	height: 100%;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
